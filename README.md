@@ -24,3 +24,9 @@ Poky (Yocto Project Reference Distro) 1.7.2 Edison ttyMFD2
 
 Edison login: 
 ```
+
+  * If this is your first time connecting, the username is root, and if prompted for the password, just press Enter.  If you've set the password for the root user, you'll need to remember it. If you've forgotten it, [I just saved you a Google search](http://www.intel.com/support/edison/sb/CS-035185.htm)
+  * To initiate the flash of the board, type ```reboot ota```
+  * Watch it do a bunch of stuff (or go get some coffee) and you'll arrive back at the login prompt. Login.
+  * Run ```configure_edison --setup```
+  * 
