@@ -29,4 +29,6 @@ Edison login:
   * To initiate the flash of the board, type ```reboot ota```
   * Watch it do a bunch of stuff (or go get some coffee) and you'll arrive back at the login prompt. Login.
   * Run ```configure_edison --setup```
-  * 
+  * Walk through the setup instructions.  You will be asked to set a password (make this at least 8 characters in order to set up SSL later), and set up wifi.
+  * Once you've connected to a wifi network, you should be able to open a web browser and navigate to your board, either through your board's name (i.e. myedison.local) or through the IP address shown when your board successfully connects to the wifi network.
+ 
